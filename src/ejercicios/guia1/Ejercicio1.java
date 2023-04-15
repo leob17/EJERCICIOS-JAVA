@@ -19,16 +19,16 @@ public class Ejercicio1 {
         int suma;
         int entero1;
         int entero2;
-       
+
         System.out.println("Ingrese dos numeros enteros");
-        Scanner leer=new Scanner(System.in);
-        
-        entero1=leer.nextInt();
-        entero2=leer.nextInt();
-        
-        suma=entero1+entero2;
-        
+        Scanner leer = new Scanner(System.in);
+
+        entero1 = leer.nextInt();
+        entero2 = leer.nextInt();
+
+        suma = entero1 + entero2;
+
         System.out.println("La suma de los numeros es " + suma);
     }
-    
+
 }
